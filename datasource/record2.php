@@ -9,10 +9,10 @@ array  // the third array inside "content": child array #2
 (
   'id'                => "2",
       'metatitle'         => "otter eating",
-      'metadescription'   => "An otter eating fish",
-      'h1title'           => "An otter eating fish",
+      'metadescription'   => "an otter eating fish",
+      'h1title'           => "Otter",
       'imagepath'         => "/img/img02.jpg",
-      'caption'           => "An otter eating fish at the ecomuseum",
+      'caption'           => "An Otter Eating Fish at the Ecomuseum Zoo",
       'copyright'         => "&copy Emilie Lafrance, 2020"),
 );
 ?>  

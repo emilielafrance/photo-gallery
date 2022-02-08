@@ -10,9 +10,9 @@ array  // the third array inside "content": child array #7
       'id'                => "7",
       'metatitle'         => "tree branch",
       'metadescription'   => "tree branch at sunrise",
-      'h1title'           => "tree branch at sunrise",
+      'h1title'           => "Tree Branch 1",
       'imagepath'         => "/img/img07.jpg",
-      'caption'           => "Tree branch at sunrise",
-      'copyright'         => "&copy Eric Girouard, 2021"), 
+      'caption'           => "Tree Branch at Sunrise",
+      'copyright'         => "&copy Emilie Lafrance, 2021"), 
 );
 ?>  

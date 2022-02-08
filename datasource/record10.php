@@ -8,11 +8,11 @@ $content = array  // an array is a set of related information. Ex: multiple piec
 array  // the third array inside "content": child array #10
 (
   'id'                => "10",
-  'metatitle'         => "Boats at Magog",
-  'metadescription'   => "Boats at Magog, Québec",
-  'h1title'           => "Boats on lac Memphrémagog",
+  'metatitle'         => "boats at magog",
+  'metadescription'   => "boats at magog, Québec",
+  'h1title'           => "Boats",
   'imagepath'         => "/img/img10.jpg",
-  'caption'           => "Boats on the lac Memphrémagog, Magog, Québec",
+  'caption'           => "Boats on the Lake Memphrémagog, Magog, Québec",
   'copyright'         => "&copy Emilie Lafrance, 2021"), 
 );
 ?>  

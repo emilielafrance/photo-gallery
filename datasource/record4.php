@@ -9,10 +9,10 @@ array  // the third array inside "content": child array #4
 (
   'id'                => "4",
   'metatitle'         => "outdoor restaurant",
-  'metadescription'   => "Outdoor restaurant during the winter time",
-  'h1title'           => "Outdoor restaurant under snow",
+  'metadescription'   => "outdoor restaurant during the winter time",
+  'h1title'           => "Restaurant",
   'imagepath'         => "/img/img04.jpg",
-  'caption'           => "Outdoor restaurant under snow in Sainte-Anne-de-Bellevue, Qc",
+  'caption'           => "Outdoor Restaurant Under Snow in Sainte-Anne-de-Bellevue, Montréal, Québec",
   'copyright'         => "&copy Emilie Lafrance, 2019"),   
 
 );

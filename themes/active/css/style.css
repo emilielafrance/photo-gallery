@@ -1,0 +1,202 @@
+/*
+COLOR PALETTE WITH CSS VARIABLES
+*/
+
+:root{
+    --main-bg-color: rgba(226, 226, 226, 0.719);
+    --main-fg-color: rgb(1, 35,70);
+    --titles-color: #000000;
+    --bodytext-color: #000000;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    color: var(--bodytext-color);
+    font-family: 'Nunito', arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--titles-color);
+}
+
+h1{
+    font-family: 'Oswald', monaco, monospace, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*
+RESPONSIVE IMAGES
+*/
+
+img{
+    max-width: 100%; /* on any device smaller than 576px, shrink all images to fit */
+    height: auto;
+    
+}
+
+
+
+/* 
+CSS VALUES
+
+default font size: 16px
+1em = 16px (context sensitive)
+1 rem = 16px (always)
+
+*/
+
+main.thumbs figure{
+    margin: 0rem;
+    padding: 2rem;
+    position: relative;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+
+main.thumbs figcaption{
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    background-color: #ffffff8e;
+    color: #000000;
+    padding: 1rem 2rem;
+}
+
+ .highres figcaption{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+} 
+
+.highres figure{
+    margin: 1rem; 
+    padding: 1rem; 
+}
+
+
+
+
+
+main.thumbs figure:hover{
+    opacity: 0.8;
+}
+
+main.thumbs figure:hover figcaption{
+    opacity: 1;
+}
+
+.home a{
+    width: 5rem;
+    height: 5rem;
+    display: block; /* anchors are inline */
+    margin: 2rem auto;
+}
+
+/*
+DEFAULT STYLES GO HERE
+*/
+
+
+/*
+MEDIA QUERIES FOR LARGER VIEWPORTS
+*/
+
+/* No media query for "extra small" since this is the default
+    the following media query sizes are taken from Bootstrap 5
+    See: https://getbbotstrap.com/docs/5.1/layout/breakpoints/
+    and: https://css-tricks.com/snippets/css/media-queries-for-standart-devices/
+*/
+
+@media only screen and (min-width: 466px){ /* 434px figure = 2 x 16px margins */
+
+    main.thumbs figure{
+        width: 434px; /*400px img + 2 x 16px padding + 2 x 1px borders = 434px */
+       margin: 0 auto;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    main.highres{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+}
+
+
+/* 
+MEDIUM DEVICES (TABLETS, 768PX AND UP)
+*/
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 918px){ /* 2 x 466px + 16px gap + 2 x 16px outer margins */
+    main.thumbs{
+        display: grid;
+        padding: 0rem;
+        grid-template-columns: 434px 434px; /* 868px */
+        grid-column-gap: 1rem; /* 884px + 2 x 1px = 886px */
+        width: 886px;
+        margin: 1rem auto; /*886px + 2 x 16px = 918px + auto-centering */
+    }
+
+}
+
+/*
+LAPTOPS AND DESTOPS CAN BE REGULAR OR RETINA DESPLAY
+*/
+
+/*
+LARGE DEVICES (DESkTOPS, 992PX AND UP)
+*/
+
+@media only screen and (min-width: 992px){
+
+}
+
+/*
+X-LARGE DEVICES (LARGE DESkTOPS, 1200PX AND UP)
+*/
+
+@media only screen and (min-width: 1200px){
+
+}
+
+@media only screen and (min-width: 1368px){ /* 1336px + 2 x 16px margin = 1368 */
+    main.thumbs {
+        grid-template-columns: 434px 434px 434px; /* 1302px */
+        grid-column-gap: 0.5rem; /* 1302 + 2 x 16px = 1334px + 2 additional 1px borders = 1336px */
+        width: 1336px;
+    }
+}
+
+/*
+
+XX-LARGE DEVICES (LARGER DESkTOPS, 1400PX AND UP)
+*/
+
+@media only screen and (min-width: 1400px){
+
+}

@@ -16,6 +16,21 @@
 <meta name="description" content="<?php echo $metadescription; ?>">
 <?php // each template must have a value for $metadescription so it can be printed here ?>
 
+<link rel="stylesheet" href="/themes/active/css/simple-css-reset-v2.0.css" media="all">
+<link rel="stylesheet" href="/themes/active/css/style.css" media="all">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
 </head>
 <body>
 

@@ -10,9 +10,9 @@ array  // the third array inside "content": child array #14
   'id'                => "14",
   'metatitle'         => "beach at lac memphrémagog",
   'metadescription'   => "rocky beach at lac memphrémagog",
-  'h1title'           => "Water Riffles at lac Memphrémagog's beach",
+  'h1title'           => "Lake 3",
   'imagepath'         => "/img/img14.jpg",
-  'caption'           => "Water riffles at lac memphrémagog, magog, québec",
+  'caption'           => "Water Riffles at Lake Memphrémagog, Magog, Québec",
   'copyright'         => "&copy Emilie Lafrance, 2021"),
 );
 ?>  
